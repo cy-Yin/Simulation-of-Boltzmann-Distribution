@@ -20,7 +20,7 @@ for index in range(10000000):
 
 list1.sort()
 
-# =========    绘柱状图   ====== #
+# =========   绘柱状图   ======== #
 plt.rcParams['font.sans-serif']=['SimHei'] #正常显示中文
 plt.rcParams['axes.unicode_minus']=False #正常显示负号
 plt.title("Boltzmann分布")
